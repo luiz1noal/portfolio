@@ -1,20 +1,16 @@
 .fundo {
-    background-image: url("../../img/portfolio.avif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 577px;
-    width: 100%;
-  }
-  
-
-.fundo h1, p, h2 {
-    color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+.fundo h1, h2, p {
+  color: white;
+}
+
+.imagen img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
